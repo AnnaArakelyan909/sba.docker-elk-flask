@@ -4,7 +4,7 @@
 ## Overview
 
 * **Objective**
-	* Use a [Dockerized ELK Stack](https://github.com/platformps/sba.deploy-flask-app-to-elk) that results in three Docker containers running in parallel:
+	* Use a [Dockerized ELK Stack](https://elk-docker.readthedocs.io/) that results in three Docker containers running in parallel:
 		* container for Elasticsearch
 		* container for Logstash
 		* container for Kibana
@@ -112,7 +112,8 @@ yellow open   metricbeat-6.1.2-2018.01.25 T_8jrMFoRYqL3IpZk1zU4Q   1   1      15
 
 ![bar graph](https://logz.io/wp-content/uploads/2018/02/bar-graph.png)
 
-* Click [here](./README.md) to view more detailed instructions.
+* Click [here](https://elk-docker.readthedocs.io/) to view more detailed instructions.
+* Click [here](./docker-elk/README.md) to view the original `README.md`
 
 
 
