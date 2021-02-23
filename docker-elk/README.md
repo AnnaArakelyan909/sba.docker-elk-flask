@@ -26,10 +26,10 @@
 
 ### Shipping data into the Dockerized ELK Stack
 * After verifying that the stack is running properly, forward some data into the stack.
-* By default, the stack will be running Logstash with the default [Logstash configuration file](https://github.com/platformps/sba.deploy-flask-app-to-elk/blob/master/logstash/pipeline/logstash.conf).
+* By default, the stack will be running Logstash with the default [Logstash configuration file](./logstash/pipeline/logstash.conf).
 * You can do either of the following:
   * **Option 1**
-    * configure the default [Logstash configuration file](https://github.com/platformps/sba.deploy-flask-app-to-elk/blob/master/logstash/pipeline/logstash.conf) to suit your purposes.
+    * configure the default [Logstash configuration file](./logstash/pipeline/logstash.conf) to suit your purposes.
     * ship any type of data into your [Dockerized ELK](https://logz.io/blog/monitoring-dockerized-elk-stack/)
     * restart the container.
   * **Option 2**
